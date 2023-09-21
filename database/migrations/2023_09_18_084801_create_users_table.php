@@ -18,10 +18,10 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('first_name');
             $table->string('last_name');
-            $table->string('email');
+            $table->string('email')->unique();
             $table->string('password');
-            $table->string('phone_number')->nullable();
-            $table->integer('role');
+            $table->string('avatar')->nullable();
+            $table->integer('role')->default(1);
             $table->timestamp('created_at')->default(DB::raw('current_timestamp'));
             $table->timestamp('updated_at')->nullable();
         });
