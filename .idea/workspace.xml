@@ -1,75 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00f4ea2f-7031-4ae5-bb4c-1e6a4e6fce1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CategorieController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ChapterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ComicController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ConfigController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreAuthorRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreCategorieRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreChapterRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreComicRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreConfigRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreTagRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreUserRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateAuthorRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateCategorieRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateChapterRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateComicRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateConfigRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateTagRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateUserRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Author.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Categorie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Chapter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Chapter_detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Comic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/AuthorPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/CategoriePolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/ChapterPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/ComicPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/ConfigPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/TagPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/UserPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/AuthorFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/CategorieFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ChapterDetailFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ChapterFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ComicFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ConfigFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/TagFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2023_09_18_083059_create_configs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2023_09_18_083457_create_authors_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2023_09_18_084624_create_tags_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2023_09_19_021713_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2023_09_19_022750_create_comics_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2023_09_19_024016_create_chapters_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2023_09_19_024243_create_chapter_details_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2023_09_21_081721_create_category_comic_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/AuthorSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/CategorieSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/ChapterSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/ComicSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/ConfigSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/TagSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_17_09_2023__23_45.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web_truyen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web_truyen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2023_09_17_164057_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2023_09_18_084801_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-    </list>
+    <list default="true" id="00f4ea2f-7031-4ae5-bb4c-1e6a4e6fce1c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -233,7 +165,7 @@
       <workItem from="1694968828907" duration="703000" />
       <workItem from="1695024184894" duration="3172000" />
       <workItem from="1695088879608" duration="3218000" />
-      <workItem from="1695283952624" duration="2681000" />
+      <workItem from="1695283952624" duration="2810000" />
     </task>
     <servers />
   </component>
