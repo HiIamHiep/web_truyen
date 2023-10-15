@@ -1,7 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00f4ea2f-7031-4ae5-bb4c-1e6a4e6fce1c" name="Changes" comment="" />
+    <list default="true" id="00f4ea2f-7031-4ae5-bb4c-1e6a4e6fce1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Enums/ComicStatusEnum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Enums/UserRoleEnum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ComicController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/AdminMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Policies/AlterAddDeletedAtColumnToSomeTablePolicy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/AlterAddDeletedAtColumnToSomeTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app-dark.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-Light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-SemiBold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/dripicons-v2.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/dripicons-v2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/dripicons-v2.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/dripicons-v2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/materialdesignicons-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/materialdesignicons-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/materialdesignicons-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/summernote.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/unicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/unicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/unicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/unicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/unicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/comics/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/comics/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/topbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web_truyen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web_truyen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthorController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategorieController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChapterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChapterDetailController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComicController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ComicController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ConfigController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreAuthorRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Auth/RegisteringRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreCategorieRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreChapterRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreChapter_detailRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreComicRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreConfigRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreTagRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreUserRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateAuthorRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateCategorieRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateChapterRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateChapter_detailRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateComicRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateConfigRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateTagRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateUserRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Author.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Author.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ChapterDetail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Chapter_detail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Policies/CategoriePolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/CategoriePolicy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/AuthorFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/AuthorFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/CategorieFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/AlterAddDeletedAtColumnToSomeTableFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ChapterDetailFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ChapterDetailFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ChapterFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ChapterFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ComicFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ComicFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2023_09_18_084801_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2023_09_18_084801_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2023_09_19_021713_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2023_10_07_084034_create_alter_add_deleted_at_column_to_some_tables_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2023_09_19_022750_create_comics_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2023_09_19_022750_create_comics_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,6 +233,25 @@
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/hanneskod/classtools" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/bensampo/laravel-enum" />
+      <path value="$PROJECT_DIR$/vendor/laravel/socialite" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable" />
     </include_path>
   </component>
   <component name="ProjectId" id="2VX3uhbF0ZaeUiTkrkK9SDzFGwW" />
@@ -136,18 +262,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/web_truyen&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.update-module-directories": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/laragon/www/web_truyen/public",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\web_truyen\public" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -166,6 +305,28 @@
       <workItem from="1695024184894" duration="3172000" />
       <workItem from="1695088879608" duration="3218000" />
       <workItem from="1695283952624" duration="2810000" />
+      <workItem from="1695357026228" duration="7485000" />
+      <workItem from="1695437191392" duration="595000" />
+      <workItem from="1695554164713" duration="600000" />
+      <workItem from="1695697727911" duration="704000" />
+      <workItem from="1695698548695" duration="700000" />
+      <workItem from="1695797270927" duration="16000" />
+      <workItem from="1695797333055" duration="7158000" />
+      <workItem from="1695891661898" duration="21000" />
+      <workItem from="1695952580280" duration="12049000" />
+      <workItem from="1696042430859" duration="10571000" />
+      <workItem from="1696214103504" duration="8176000" />
+      <workItem from="1696405207677" duration="4356000" />
+      <workItem from="1696655509401" duration="1616000" />
+      <workItem from="1696665354030" duration="4984000" />
+      <workItem from="1696673943747" duration="3283000" />
+      <workItem from="1696777485867" duration="147000" />
+      <workItem from="1696863846085" duration="1224000" />
+      <workItem from="1697009142905" duration="3463000" />
+      <workItem from="1697098734314" duration="4088000" />
+      <workItem from="1697120873435" duration="3040000" />
+      <workItem from="1697257263625" duration="2501000" />
+      <workItem from="1697269065594" duration="2712000" />
     </task>
     <servers />
   </component>
